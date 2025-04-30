@@ -1,0 +1,65 @@
+.todos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .todos-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .container-outer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .select-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .select-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4d350b;
+  }
+  
+  .select-dropdown {
+    padding: 10px 15px;
+    border: 1px solid #4d350b;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    background-color: #dec67a;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .select-dropdown:hover {
+    border-color:#4d350b;
+    background-color: #e8e8e8;
+  }
+  
+  .select-dropdown:focus {
+    border-color: #4d350b;
+    box-shadow: 0 0 0 3px #1247c4(74, 144, 226, 0.2);
+  }
+  
+  .filters {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  

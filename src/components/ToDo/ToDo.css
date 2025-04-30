@@ -1,0 +1,46 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f0efcc;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 420px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .text {
+    margin: 0;
+    color: #4d350b;
+    font-size: 16px;
+  }
+  
+  .btn {
+    border: none;
+    color: #4d350b;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .complete {
+    background-color: #f0c069;
+  }
+  
+  .complete:hover {
+    background-color: #f0c069;
+  }
+  
+  .undo {
+    background-color: #f0c069;
+  }
+  
+  .undo:hover {
+    background-color: #f0c069;
+  }
+  
