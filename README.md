@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 git clone git@github.com:evaristovska/todo_app_dss.git
 
 ## Navigate to prоject directory and install dependencies
-cd todo
+cd todo \
 npm install
 
 ## Available Scripts:
